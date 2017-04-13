@@ -4,7 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.activitytest.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.example.activitytest.MainActivity"
+    android:background="#0000ff">
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:Textcolor="#ffffff"/>
+
 
     <Button
         android:id="@+id/but_second"
